@@ -1,0 +1,2 @@
+solver,method,rep,n_rows,n_cols,margin,noise,tau_true,tau_raw,tau_projected,tau_error_raw,tau_error_projected,tau_shift,baseline_rmse_raw,baseline_rmse_projected,pattern,outcome_mode,baseline_projection,baseline_min_raw,baseline_min_projected,negative_fraction_raw,clipped_fraction,clipped_mass,max_clipped_magnitude
+MCNNM,raw_vs_projected,0,12,12,0.05,0.05,0.2,-0.19360628290365062,-0.19360628290365062,-0.39360628290365063,-0.39360628290365063,0.0,0.5583598362920761,0.5583598362920761,block,dense,clip_nonnegative,0.5708690717480209,0.5708690717480209,0.0,0.0,0.0,-0.0

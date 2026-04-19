@@ -1,0 +1,10 @@
+method,dc_mode,outcome_mode,margin,noise,pattern,mean,std,count
+final_clip,auto,dense,0.05,0.05,block,0.21097313391794342,,1
+final_clip,convex,dense,0.05,0.05,block,0.21856672990784826,,1
+final_clip,non-convex,dense,0.05,0.05,block,0.21097313391794342,,1
+nonnegative_svd,auto,dense,0.05,0.05,block,0.1638819050675998,,1
+nonnegative_svd,convex,dense,0.05,0.05,block,0.17206983112347224,,1
+nonnegative_svd,non-convex,dense,0.05,0.05,block,0.1638819050675998,,1
+raw,auto,dense,0.05,0.05,block,0.2226813637167221,,1
+raw,convex,dense,0.05,0.05,block,0.2282128890155803,,1
+raw,non-convex,dense,0.05,0.05,block,0.2226813637167221,,1

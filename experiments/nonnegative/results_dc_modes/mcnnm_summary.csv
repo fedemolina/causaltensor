@@ -1,0 +1,2 @@
+outcome_mode,margin,noise,pattern,tau_error_raw_mean,tau_error_raw_std,tau_error_projected_mean,tau_error_projected_std,tau_shift_mean,tau_shift_std,clipped_fraction_mean,clipped_fraction_std
+dense,0.05,0.05,block,-0.39360628290365063,,-0.39360628290365063,,0.0,,0.0,
