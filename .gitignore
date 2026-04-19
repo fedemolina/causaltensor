@@ -162,3 +162,7 @@ src/causaltensor/semi_synthetic_experiments/results/*/*.csv
 
 # OS files
 .DS_Store
+
+# Local planning notes
+/plan.md
+/plan_2.md
