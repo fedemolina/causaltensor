@@ -3,6 +3,21 @@
 This note summarizes the current non-negativity support and the limitations
 discussed in https://github.com/TianyiPeng/causaltensor/issues/12.
 
+## Local Branch Changelog
+
+These changes are currently local to the `feature/nonnegative-baselines` branch
+and have not been proposed for an upstream package release yet.
+
+- Marked `DebiasConvex` non-negative modes as experimental point-estimation
+  heuristics, disabled standard errors for those modes, and added diagnostics
+  for inference validity, baseline negativity, rank, conditioning, and residuals.
+- Added `baseline_projection="clip_nonnegative"` to `MCNNMPanelSolver` solve
+  methods and `fit`. Raw baseline/tau remain unchanged while projected
+  companion outputs and projection diagnostics are attached to the result.
+- Added non-negativity tests, this documentation page, an executable tutorial
+  notebook, and local experiment scripts/results for DebiasConvex and MCNNM
+  scenarios.
+
 ## DebiasConvex
 
 `DebiasConvex` supports `method_non_neg` as an experimental point-estimation
