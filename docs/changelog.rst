@@ -3,6 +3,17 @@
 Changelog
 =========
 
+Unreleased
+----------
+- Marked DebiasConvex non-negative modes as experimental point-estimation
+  heuristics, disabled standard errors for those modes, and added diagnostics
+  for inference validity, baseline negativity, rank, conditioning, and residuals.
+- Added ``baseline_projection="clip_nonnegative"`` to ``MCNNMPanelSolver``
+  solve methods and ``fit``. Raw baseline/tau remain unchanged while projected
+  companion outputs and projection diagnostics are attached to the result.
+- Added non-negativity tests, documentation, an executable tutorial notebook,
+  and local experiment scripts/results for DebiasConvex and MCNNM scenarios.
+
 0.1.12 (2025-03-12)
 ------------------
 - Added CVXPY package for SDID method
